@@ -1,0 +1,26 @@
+---
+title: "Hanni play code"
+author: "Hsieh M.H"
+date: "2022/6/26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#迴圈與迭代
+註:如果我沒記錯，迴圈是一種經由迭代回傳的值，回傳值依據使用者設定的是常數或是缺失值(NA)。
+
+### for
+```{r for_example , message=FALSE,warning=FALSE}
+x <- 1:4
+
+for (i in x) {
+  j <- i+100
+  print(j)
+}
+
+```
+
+
